@@ -1,0 +1,4 @@
+(library
+ (name pgraphics)
+ (public_name Pgraphics)
+ (libraries pyml))

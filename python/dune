@@ -1,0 +1,4 @@
+(executable
+ (modules main)
+ (name main)
+ (libraries pyml))

@@ -1,0 +1,10 @@
+(library
+ (modules consts)
+ (name consts)
+ (public_name Consts)
+ (libraries Game Pgraphics))
+
+(executable
+ (modules main)
+ (name main)
+ (libraries Consts Game Pgraphics core async core_unix))
